@@ -1,6 +1,5 @@
 [build]
   command = "NEXT_PUBLIC_BASE_URL=\"${NEXT_PUBLIC_BASE_URL:-$URL}\" yarn build"
-  publish = ".next"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
